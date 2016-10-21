@@ -226,7 +226,6 @@ p {
   text-align: center;
 }
 
-
 .spacer {
   height: 100px;
 }
@@ -279,6 +278,7 @@ p {
 
 footer {
   height: 100px;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
