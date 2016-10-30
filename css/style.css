@@ -15,7 +15,25 @@ body {
 /*----NAV---*/
 
 
+
 #hero {
+  background: url("../img/donations.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+
+.donate {
   background: url("../img/donations.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,8 +68,26 @@ body {
 }
 
 .store {
-  background: url("../img/store.svg");
-  background-color: #bedff6;
+  /*background: url("../img/store.svg");
+*/background-color: #bedff6;
+  border-bottom: solid 40px #999;
+}
+
+.store h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  top: 100px;
+  left: 0;
+}
+
+.store img {
+  width: 70%;
+  position: relative;
+  top: 5px;
+  left: 115px;
 }
 
 .dollar {
@@ -62,8 +98,10 @@ body {
 .dollar h3 {
   text-align: left;
   position: relative;
-  top: 0;
-  left: 180px;
+  top: -33px;
+  left: 214px;
+  font-size: 2rem;
+  line-height: 4rem;
 
 }
 
@@ -162,7 +200,6 @@ nav a#mobilenav {
 }
 
 nav a:hover {
-
   background: #ddd;
 
 }
@@ -206,16 +243,6 @@ h2 {
   text-align: center;
   margin: 35px 0;
   font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-  font-size: 2.5rem;
-  line-height: 3rem;
-  text-align: center;
-  padding: 50px;
-  position: relative;
-  top: -84px;
-  left: 0;
 }
 
 h4 {
